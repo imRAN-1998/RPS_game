@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RPS game</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="scores">
+			<div class="player">
+				<h1 class="youanime">You</h1>
+				<h2>0</h2>
+			</div>
+			<div><h2 style="font-size: 30px;">VS</h2></div>
+			<div class="comp">
+				<h1 class="computeranime">computer</h1>
+				<h2>0</h2>
+			</div>
+		</div>
+		<div class="intro">
+			<h1 class="RPS" style="margin-bottom: 50px">Rock, Paper and Scissors</h1>
+			<button class="button1" style="width:150px">Let's play</button>
+		</div>
+		<div class="match">
+				<h1 class="show RPS">Choose an option</h1>
+			<div class="hand" style="margin-bottom: 50px">
+				<img src="assets/rock.png" class="player-hand rotate1">
+				<img src="assets/rock.png" class="comp-hand rotate2">
+			</div>
+			<div class="buttons">
+				<button class="button1">rock</button>
+				<button class="button1">paper</button>
+				<button class="button1">scissor</button>
+			</div>
+		</div>
+	</div>
+	<div class="modal">
+		<h1>computer Won</h1>
+		<button class="button1" style="margin-top:10px">close</button>
+	</div>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
